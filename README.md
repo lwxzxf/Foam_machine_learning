@@ -3,9 +3,8 @@ This project applies machine learning techniques to predict the thermal conducti
 
 ## Project Structure
 
-- `data/`: 
-  - `data/foam.csv`: The primary dataset containing detailed structural parameters (full names used) and measured thermal conductivity values for model training and testing.
-  - `data/foam1.csv`: A supplementary dataset with abbreviated structural parameter names used for additional validation of the machine learning models.
+- `data/foam.csv`: The primary dataset containing detailed structural parameters (full names used) and measured thermal conductivity values for model training and testing.
+- `data/foam1.csv`: A supplementary dataset with abbreviated structural parameter names used for additional validation of the machine learning models.
 
 Each dataset includes various descriptors that are critical for the prediction of thermal conductivity. It is important to note that `foam.csv` uses full descriptor names, while `foam1.csv` uses abbreviated names for the same descriptors. Understanding the naming convention is crucial when analyzing the data and interpreting the results.
 - `ANN_optimization.ipynb`: Optimizes hyperparameters for 2-layer and 3-layer Artificial Neural Network (ANN) models.
